@@ -1,0 +1,31 @@
+#pragma once
+
+// RogueCompany (4.24) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "../SDK.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Parameters
+//---------------------------------------------------------------------------
+
+// Function KillCamController.KillCamController_C.ReceiveBeginPlay
+struct AKillCamController_C_ReceiveBeginPlay_Params
+{
+};
+
+// Function KillCamController.KillCamController_C.ExecuteUbergraph_KillCamController
+struct AKillCamController_C_ExecuteUbergraph_KillCamController_Params
+{
+};
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
